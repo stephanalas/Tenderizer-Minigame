@@ -112,7 +112,7 @@ class MyGame extends Phaser.Scene {
       }
       // render gameOver
       if (!this.timeLeft && this.activeGame) {
-        this.loss.setVisible(true);
+        loss.setVisible(true);
         this.scene.pause();
       }
 
